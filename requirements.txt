@@ -1,0 +1,5 @@
+pandas>=2.0,<3.0
+numpy>=1.26,<3.0
+Pillow>=10,<13
+scikit-image>=0.22,<0.27
+scikit-learn>=1.4,<1.9

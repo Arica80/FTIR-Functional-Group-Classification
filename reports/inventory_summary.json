@@ -1,0 +1,26 @@
+{
+  "total": 498,
+  "families": {
+    "cetona": 196,
+    "amina": 162,
+    "alcool": 140
+  },
+  "partitions": {
+    "treino": 306,
+    "teste": 71,
+    "validacao": 71,
+    "excluido_pendente_revisao": 50
+  },
+  "structure_status": {
+    "PENDENTE": 463,
+    "ESTRUTURA_VINCULADA_POR_NOME": 35
+  },
+  "train_decision": {
+    "REVISAO_ESTRUTURAL_NECESSARIA": 463,
+    "REVISAR: MULTIRROTULO_OU_EXCLUSAO_DA_BASE_3_CLASSES": 18,
+    "AGUARDA_DEFINICAO_DO_TREINO": 11,
+    "FORA_DA_CATEGORIA_CETONA_SIMPLES": 6
+  },
+  "repeated_compound_ids": 123,
+  "duplicate_sha256": 0
+}
