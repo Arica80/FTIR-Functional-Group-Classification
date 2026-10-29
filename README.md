@@ -50,12 +50,6 @@ The SDBS images are not included. Reproduction requires authorized access to the
 ## Data permission and provenance
 The project owner reports receiving SDBS authorization. **Verify the written permission's exact scope** (redistribution of spectral PNGs, derivative datasets, public GitHub hosting, and attribution requirements) before uploading image files. This starter package does not include the original spectral images or the authorization letter.
 
-## License
-No public license is assigned to the underlying spectra. Repository source code may be licensed separately once approved; a blanket license must not imply ownership of SDBS records.
-
-## Next stage: label audit and executable baseline
-The author has reported SDBS authorization; the exact redistribution conditions should be retained with the repository before publishing spectral images.
-
 `data/labels_to_review.csv` is a **review template**, not ground truth. All multi-label entries intentionally start blank. `familia_original` is a legacy storage category, not a verified label. A domain reviewer should populate `verified_compound_id` and `label_alcohol`, `label_amine`, `label_ketone` with **0** or **1** after structural review. Different images of the same compound must share the same verified compound ID.
 
 Run locally, or in Google Colab after mounting Drive and setting a folder containing the PNG images:
